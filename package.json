@@ -1,0 +1,45 @@
+{
+  "name": "react-dnd-sortlist",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel examples/index.html",
+    "build": "npm run build-es5 && npm run build-es6",
+    "build-es5": "tsc --outDir lib",
+    "build-es6": "tsc --module es6 --outDir modules",
+    "release": "rm -rf ./{lib,modules} && npm run build && np"
+  },
+  "main": "lib/index.js",
+  "module": "modules/index.js",
+  "files": [
+    "lib/*",
+    "modules/*"
+  ],
+  "keywords": [
+    "react"
+  ],
+  "author": "arzusyume@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/classnames": "^2.2.7",
+    "@types/react": "^16.8.7",
+    "@types/react-dnd": "^3.0.2",
+    "@types/react-dom": "^16.8.2",
+    "@types/recompose": "^0.30.5",
+    "np": "^4.0.2",
+    "parcel-bundler": "^1.12.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "typescript": "^3.3.3333"
+  },
+  "peerDependencies": {
+    "react": ">16",
+    "react-dom": ">16"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "react-dnd": "^7.2.1",
+    "react-dnd-html5-backend": "^7.2.0",
+    "recompose": "^0.30.0"
+  }
+}
