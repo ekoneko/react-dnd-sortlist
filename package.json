@@ -27,7 +27,7 @@
     "@types/react-dom": "^16.8.2",
     "@types/recompose": "^0.30.5",
     "np": "^4.0.2",
-    "parcel-bundler": "^1.12.0",
+    "parcel-bundler": "^1.12.3",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "typescript": "^3.3.3333"
